@@ -8,4 +8,4 @@ module.exports = {
 	env: {
 		"bun/test": true,
 	},
-};
+}

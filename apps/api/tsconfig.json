@@ -1,13 +1,10 @@
 {
-  "extends": "@repo/typescript-config/base.json",
-  "compilerOptions": {
-    "lib": ["ESNext"],
-    "outDir": "./dist",
-    "types": [
-      "@cloudflare/workers-types",
-      "@types/bun"
-    ]
-  },
-  "exclude": ["node_modules"],
-  "include": ["."]
+	"extends": "@repo/typescript-config/base.json",
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		"outDir": "./dist",
+		"types": ["@cloudflare/workers-types", "@types/bun"]
+	},
+	"exclude": ["node_modules"],
+	"include": ["."]
 }

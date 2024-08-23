@@ -1,4 +1,4 @@
-import { type Options, defineConfig } from "tsup";
+import { type Options, defineConfig } from "tsup"
 
 export default defineConfig((options: Options) => ({
 	entryPoints: ["src/index.ts"],
@@ -6,4 +6,4 @@ export default defineConfig((options: Options) => ({
 	target: "es2022",
 	format: ["esm"],
 	...options,
-}));
+}))

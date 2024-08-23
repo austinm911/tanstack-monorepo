@@ -1,4 +1,4 @@
-import { type Options, defineConfig } from "tsup";
+import { type Options, defineConfig } from "tsup"
 
 export default defineConfig((options: Options) => ({
 	entry: ["./src/index.tsx"],
@@ -10,4 +10,4 @@ export default defineConfig((options: Options) => ({
 		js: "'use client'",
 	},
 	...options,
-}));
+}))

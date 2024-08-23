@@ -3,10 +3,10 @@
 This is a Turborepo starter template with Tanstack Router
 
 - [ ] Add Tanstack Router Vite App
-- [ ] Add Biome Config package
 - [x] Replace Express Server with Hono
 - [ ] Add Drizzle ORM DB Package
 - [ ] Add Core Package for Business Logic
-- [ ] Add Expo Package
-- [ ] Replace ESLint/Prettier with Biome
+- [ ] Add Expo Mobile Package
+- [ ] Replace ESLint/Prettier with Biome, add biome format, lint, check scripts
+  - [x] Add Biome
 - [ ] Add common utilities like Knip
