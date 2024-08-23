@@ -37,15 +37,17 @@ This Turborepo includes the following packages and apps:
 
 ### Apps and Packages
 
-| Index No.  | Workspace/Folder  | Info.                                                                               | Name                    | Navigate       | Port                                |
-| ---------- | ----------------- | ----------------------------------------------------------------------------------- | ----------------------- | -------------- | ----------------------------------- |
-| apps /     |                   |                                                                                     |                         |                |                                     |
-| 1          | api               | A [Hono](https://hono.dev/) server compatible with Cloudflare Workers               | @repo/api               | bun api        | 5001 (wrangler) / deployed with SST |
-| 2          | blog              | A [Remix](https://remix.run/) blog for content management                           | @repo/blog              | bun blog       | -                                   |
-| packages / |                   |                                                                                     |                         |                |                                     |
-| 1          | ui                | A dummy React UI library (which contains `<CounterButton>` and `<Link>` components) | @repo/ui                | bun ui         | -                                   |
-| 2          | jest-presets      | Jest configurations for testing JavaScript applications                             | @repo/jest-presets      | bun jest       | -                                   |
-| 3          | typescript-config | tsconfig.json's used throughout the monorepo                                        | @repo/typescript-config | bun typescript | -                                   |
+| Index No.  | Workspace/Folder  | Info.                                                                               |
+| ---------- | ----------------- | ----------------------------------------------------------------------------------- |
+| apps /     |                   |                                                                                     |
+| 1          | api               | A [Hono](https://hono.dev/) server compatible with Cloudflare Workers               |
+| 2          | blog              | A [Remix](https://remix.run/) blog for content management                           |
+| 3          | spa               | A [Tanstack Router](https://tanstack.com/router) SPA                                |
+| packages / |                   |                                                                                     |
+| 1          | ui                | A dummy React UI library (which contains `<CounterButton>` and `<Link>` components) |
+| 2          | jest-presets      | Jest configurations for testing JavaScript applications                             |
+| 3          | typescript-config | tsconfig.json's used throughout the monorepo                                        |
+| 4          | core              | Core package for business logic                                                     |
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
@@ -53,6 +55,7 @@ Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 This Turborepo has some additional tools already setup for you:
 
+- [SST](https://sst.dev/) for Infrastructure as Code
 - [Bun](https://bun.sh/) for package management and monorepo workspace
 - [Biome](https://biomejs.dev/) for formatting & linting
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
