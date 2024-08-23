@@ -12,6 +12,13 @@ Run the following command:
 npx create-turbo@latest -e kitchen-sink
 ```
 
+Add new packages to the repo
+
+```sh
+bun turbo gen workspace
+# add --type [app/package] for which type of package to create
+```
+
 ## What's inside?
 
 This Turborepo includes the following packages and apps:
@@ -24,7 +31,6 @@ This Turborepo includes the following packages and apps:
 - `blog`: a [Remix](https://remix.run/) blog
 - `@repo/eslint-config`: ESLint configurations used throughout the monorepo
 - `@repo/jest-presets`: Jest configurations
-- `@repo/logger`: isomorphic logger (a small wrapper around console.log)
 - `@repo/ui`: a dummy React UI library (which contains `<CounterButton>` and `<Link>` components)
 - `@repo/typescript-config`: tsconfig.json's used throughout the monorepo
 
@@ -34,7 +40,14 @@ Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 This Turborepo has some additional tools already setup for you:
 
+- [Bun](https://bun.sh/) for package management and monorepo workspace
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Jest](https://jestjs.io) test runner for all things JavaScript
 - [Prettier](https://prettier.io) for code formatting
+
+## Resources
+
+- Turborepo Generators
+  - [turbo-generator](https://github.com/eXodes/turbo-generator) - example generators for a Next.JS app
+  - [turborepo-template](https://github.com/dhoniaridho/turborepo-template/tree/main/turbo/generators) - example templates with various app packages
