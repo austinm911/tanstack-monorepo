@@ -13,11 +13,11 @@
 		"outdated": "bun outdated"
 	},
 	"dependencies": {
-		"hono": "^4.0.0"
+		"hono": "^4.5.8"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20240208.0",
+		"@cloudflare/workers-types": "^4.20240821.1",
 		"@repo/typescript-config": "*",
-		"wrangler": "^3.30.1"
+		"wrangler": "^3.72.2"
 	}
 }

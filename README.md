@@ -28,6 +28,7 @@ Update dependencies across the monorepo:
 bunx taze -I -r
 # or
 bunx taze --interactive --recursive
+bunx taze --include lodash,webpack # filter by package name
 ```
 
 ## What's inside?
@@ -62,6 +63,12 @@ This Turborepo has some additional tools already setup for you:
 
 - [Knip](https://github.com/webpro/knip) - Find unused code
 - [date-fns](https://date-fns.org/) - Date utilities
+- Auth
+  - WorkOS
+  - Clerk
+  - Supabase
+- Email
+  - [Resend](https://resend.com/) - Transaction & Marketing Emails
 
 ## Resources
 
