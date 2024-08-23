@@ -1,12 +1,13 @@
-import { defineConfig, type Options } from "tsup";
+import { type Options, defineConfig } from "tsup";
 
 export default defineConfig((options: Options) => ({
-  entry: ["./src/index.tsx"],
-  format: ["cjs", "esm"],
-  dts: true,
-  external: ["react"],
-  banner: {
-    js: "'use client'",
-  },
-  ...options,
+	entry: ["./src/index.tsx"],
+	format: ["esm"],
+	dts: true,
+	target: "es2022",
+	external: ["react"],
+	banner: {
+		js: "'use client'",
+	},
+	...options,
 }));
