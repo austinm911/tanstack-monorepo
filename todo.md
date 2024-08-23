@@ -7,6 +7,7 @@ This is a Turborepo starter template with Tanstack Router
 - [ ] Add Drizzle ORM DB Package
 - [ ] Add Core Package for Business Logic
 - [ ] Add Expo Mobile Package
-- [ ] Replace ESLint/Prettier with Biome, add biome format, lint, check scripts
+- [x] Replace ESLint/Prettier with Biome, add biome format, lint, check scripts
   - [x] Add Biome
+  - [x] Remove Eslint
 - [ ] Add common utilities like Knip

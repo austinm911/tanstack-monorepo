@@ -5,7 +5,7 @@
 		"build": "turbo run build",
 		"clean": "turbo run clean",
 		"dev": "turbo run dev",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"format": "biome format --write",
 		"lint": "turbo run lint",
 		"test": "turbo run test",
 		"turbo:generate": "turbo gen workspace",
@@ -19,7 +19,6 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.3",
 		"@types/bun": "^1.1.6",
-		"prettier": "^3.2.5",
 		"turbo": "^2.0.14"
 	},
 	"engines": {
