@@ -1,3 +1,4 @@
+import { CounterButton } from "@repo/ui" //! not recognizing import
 import { notFound } from "@tanstack/react-router"
 import axios from "redaxios"
 

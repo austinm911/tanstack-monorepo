@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "remix vite:build",
+		"clean": "rm -rf node_modules .turbo .vercel build",
 		"dev": "remix vite:dev",
 		"lint": "biome check --write",
 		"typecheck": "tsc",

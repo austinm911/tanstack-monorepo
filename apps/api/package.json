@@ -6,6 +6,7 @@
 		"dev": "sst dev",
 		"wrangler:dev": "wrangler dev src/index.ts",
 		"build": "tsup",
+		"clean": "rm -rf node_modules .turbo .wrangler",
 		"deploy": "wrangler deploy --minify src/index.ts",
 		"lint": "biome check --write",
 		"typecheck": "tsc --noEmit",

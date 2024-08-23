@@ -2,6 +2,13 @@
 
 This is a Turborepo starter template with Tanstack Router
 
+## Known Issues
+
+- [ ] Workspaces not working with Bun
+- [ ] Deploying StaticSite to CF does not upload the dist
+
+## TODO
+
 - [ ] Add Tanstack Router Vite SPA App
   - Having issues deploying to CF with SST
 - [ ] Add Tanstack Start App

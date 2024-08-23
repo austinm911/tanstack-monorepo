@@ -3,7 +3,7 @@
 	"private": true,
 	"scripts": {
 		"build": "turbo run build",
-		"clean": "turbo run clean",
+		"clean": "turbo run clean && rm -rf node_modules .turbo .sst",
 		"dev": "turbo run dev",
 		"format": "biome format --write",
 		"lint": "turbo run lint",
