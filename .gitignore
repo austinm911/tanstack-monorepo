@@ -10,3 +10,9 @@ dist-ssr
 .cache
 server/dist
 public/dist
+
+# sst
+.sst
+
+# Cloudflare
+.wrangler

@@ -1,9 +1,10 @@
 {
-	"name": "api",
+	"name": "@repo/api",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "wrangler dev src/index.ts",
+		"dev": "sst dev",
+		"wrangler:dev": "wrangler dev src/index.ts",
 		"build": "tsup",
 		"deploy": "wrangler deploy --minify src/index.ts",
 		"lint": "eslint src/",

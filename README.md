@@ -12,6 +12,14 @@ Run the following command:
 npx create-turbo@latest -e kitchen-sink
 ```
 
+Add Environment Variables
+Create a `.env` file in the root of your project to store your environment variables.
+Make sure to include the following line in your `.env` file:
+
+```sh
+CLOUDFLARE_ACCOUNT_ID=<your-cloudflare-account-id>
+```
+
 Add new packages to the repo
 
 ```sh
@@ -25,14 +33,16 @@ This Turborepo includes the following packages and apps:
 
 ### Apps and Packages
 
-- `api`: a [Hono](https://hono.dev/) server compatible with Cloudflare Workers
-- `storefront`: a [Next.js](https://nextjs.org/) app
-- `admin`: a [Vite](https://vitejs.dev/) single page app
-- `blog`: a [Remix](https://remix.run/) blog
-- `@repo/eslint-config`: ESLint configurations used throughout the monorepo
-- `@repo/jest-presets`: Jest configurations
-- `@repo/ui`: a dummy React UI library (which contains `<CounterButton>` and `<Link>` components)
-- `@repo/typescript-config`: tsconfig.json's used throughout the monorepo
+| Index No.  | Workspace/Folder  | Info.                                                                               | Name                    | Navigate       | Port                                |
+| ---------- | ----------------- | ----------------------------------------------------------------------------------- | ----------------------- | -------------- | ----------------------------------- |
+| apps /     |                   |                                                                                     |                         |                |                                     |
+| 1          | api               | A [Hono](https://hono.dev/) server compatible with Cloudflare Workers               | @repo/api               | bun api        | 5001 (wrangler) / deployed with SST |
+| 2          | blog              | A [Remix](https://remix.run/) blog for content management                           | @repo/blog              | bun blog       | -                                   |
+| packages / |                   |                                                                                     |                         |                |                                     |
+| 1          | ui                | A dummy React UI library (which contains `<CounterButton>` and `<Link>` components) | @repo/ui                | bun ui         | -                                   |
+| 2          | eslint-config     | ESLint configurations used throughout the monorepo                                  | @repo/eslint-config     | bun eslint     | -                                   |
+| 3          | jest-presets      | Jest configurations for testing JavaScript applications                             | @repo/jest-presets      | bun jest       | -                                   |
+| 4          | typescript-config | tsconfig.json's used throughout the monorepo                                        | @repo/typescript-config | bun typescript | -                                   |
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
@@ -49,6 +59,7 @@ This Turborepo has some additional tools already setup for you:
 ## Resources
 
 - Example Monorepos
+
   - [mattpocock/total-typescript-monorepo](https://github.com/mattpocock/total-typescript-monorepo) / [total-typescript-monorepo-template](https://github.com/mattpocock/total-typescript-monorepo-template)
   - [byCedric/expo-monorepo-example](https://github.com/byCedric/expo-monorepo-example) Expo + Web
   - [saasfly/saasfly](https://github.com/saasfly/saasfly) - Next.JS template
@@ -57,6 +68,8 @@ This Turborepo has some additional tools already setup for you:
     - [hamlim/template-monorepo](https://github.com/hamlim/template-monorepo) - A quick and simple monorepo starter template (Bun, Next.js, Turbo) / Biome
     - [breezemm/breeze-web](https://github.com/breezemm/breeze-web) - Monorepo for Breeze Web - init with Shadcn in UI package, consumed elsewhere
     - [dangvanthanh/nuxt-turborepo-boilerplate](https://github.com/dangvanthanh/nuxt-turborepo-boilerplate) - review biome config
+  - SST
+    - [sayandedotcom/refhired.com](https://github.com/sayandedotcom/refhired.com) - SST + Turborepo
 
 - Turborepo Generators
   - [turbo-generator](https://github.com/eXodes/turbo-generator) - example generators for a Next.JS app
