@@ -22,6 +22,14 @@ bun turbo gen workspace
 # alternatively: `bun turbo gen workspace --type <app/package>` to specify the type of package to create
 ```
 
+Update dependencies across the monorepo:
+
+```sh
+bunx taze -I -r
+# or
+bunx taze --interactive --recursive
+```
+
 ## What's inside?
 
 This Turborepo includes the following packages and apps:
@@ -48,6 +56,7 @@ This Turborepo has some additional tools already setup for you:
 - [Biome](https://biomejs.dev/) for formatting & linting
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [Jest](https://jestjs.io) test runner for all things JavaScript
+- [taze](https://github.com/antfu-collective/taze) for updating dependencies across the monorepo
 
 #### Other Utilities to Consider
 

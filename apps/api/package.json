@@ -9,7 +9,8 @@
 		"deploy": "wrangler deploy --minify src/index.ts",
 		"lint": "biome check --write",
 		"typecheck": "tsc --noEmit",
-		"test": "bun test"
+		"test": "bun test",
+		"outdated": "bun outdated"
 	},
 	"dependencies": {
 		"hono": "^4.0.0"

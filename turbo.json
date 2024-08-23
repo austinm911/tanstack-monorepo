@@ -29,6 +29,7 @@
 			"cache": false,
 			"persistent": true
 		},
+		"outdated": {},
 		"clean": {
 			"cache": false
 		}

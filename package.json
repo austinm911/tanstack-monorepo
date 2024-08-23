@@ -11,7 +11,9 @@
 		"turbo:generate": "turbo gen workspace",
 		"typecheck": "turbo run typecheck",
 		"sst:unlock": "sst unlock",
-		"api": "bun --filter @repo/api dev"
+		"api": "bun --filter @repo/api dev",
+		"outdated": "turbo run outdated",
+		"update-deps": "bunx taze --interactive --recursive"
 	},
 	"dependencies": {
 		"sst": "3.0.68"
