@@ -40,9 +40,8 @@ This Turborepo includes the following packages and apps:
 | 2          | blog              | A [Remix](https://remix.run/) blog for content management                           | @repo/blog              | bun blog       | -                                   |
 | packages / |                   |                                                                                     |                         |                |                                     |
 | 1          | ui                | A dummy React UI library (which contains `<CounterButton>` and `<Link>` components) | @repo/ui                | bun ui         | -                                   |
-| 2          | eslint-config     | ESLint configurations used throughout the monorepo                                  | @repo/eslint-config     | bun eslint     | -                                   |
-| 3          | jest-presets      | Jest configurations for testing JavaScript applications                             | @repo/jest-presets      | bun jest       | -                                   |
-| 4          | typescript-config | tsconfig.json's used throughout the monorepo                                        | @repo/typescript-config | bun typescript | -                                   |
+| 2          | jest-presets      | Jest configurations for testing JavaScript applications                             | @repo/jest-presets      | bun jest       | -                                   |
+| 3          | typescript-config | tsconfig.json's used throughout the monorepo                                        | @repo/typescript-config | bun typescript | -                                   |
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
@@ -51,8 +50,8 @@ Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 This Turborepo has some additional tools already setup for you:
 
 - [Bun](https://bun.sh/) for package management and monorepo workspace
+- [Biome](https://biomejs.dev/) for formatting & linting
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
 - [Jest](https://jestjs.io) test runner for all things JavaScript
 - [Prettier](https://prettier.io) for code formatting
 

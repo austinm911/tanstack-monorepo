@@ -13,14 +13,13 @@
 		"clean": "rm -rf dist",
 		"dev": "tsup --watch",
 		"typecheck": "tsc --noEmit",
-		"lint": "eslint src/",
+		"lint": "biome check --write",
 		"test": "jest"
 	},
 	"jest": {
 		"preset": "@repo/jest-presets/browser"
 	},
 	"devDependencies": {
-		"@repo/eslint-config": "*",
 		"@repo/jest-presets": "*",
 		"@repo/typescript-config": "*",
 		"@types/jest": "^29.5.12",

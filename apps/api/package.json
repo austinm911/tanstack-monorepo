@@ -7,7 +7,7 @@
 		"wrangler:dev": "wrangler dev src/index.ts",
 		"build": "tsup",
 		"deploy": "wrangler deploy --minify src/index.ts",
-		"lint": "eslint src/",
+		"lint": "biome check --write",
 		"typecheck": "tsc --noEmit",
 		"test": "bun test"
 	},
