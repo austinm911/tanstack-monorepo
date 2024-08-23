@@ -93,3 +93,11 @@ This Turborepo has some additional tools already setup for you:
 - Turborepo Generators
   - [turbo-generator](https://github.com/eXodes/turbo-generator) - example generators for a Next.JS app
   - [turborepo-template](https://github.com/dhoniaridho/turborepo-template/tree/main/turbo/generators) - example templates with various app packages
+
+- tsup
+  - [treeshaking-with-tsup](https://dorshinar.me/posts/treeshaking-with-tsup)
+
+## Notes
+
+- Package.json settings
+  - Refer to [Live Types in a TypeScript Monorepo](https://colinhacks.com/essays/live-types-typescript-monorepo?q=1) and [treeshaking-with-tsup](https://dorshinar.me/posts/treeshaking-with-tsup) - either use `exports` to export the `index.tsx/ts` file or use baseUrl/paths in base tsconfig.json to point to the `index.tsx/ts` file

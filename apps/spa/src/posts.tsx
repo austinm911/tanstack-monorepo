@@ -1,4 +1,4 @@
-import { CounterButton } from "@repo/ui" //! not recognizing import
+import { CounterButton } from "@repo/ui" //? auto import works
 import { notFound } from "@tanstack/react-router"
 import axios from "redaxios"
 
@@ -7,7 +7,6 @@ export type PostType = {
 	title: string
 	body: string
 }
-
 export const fetchPost = async (postId: string) => {
 	console.info(`Fetching post with id ${postId}...`)
 	await new Promise((r) => setTimeout(r, 500))

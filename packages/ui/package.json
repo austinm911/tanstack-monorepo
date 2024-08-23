@@ -3,15 +3,9 @@
 	"version": "0.0.0",
 	"private": true,
 	"license": "MIT",
+	"type": "module",
+	"exports": "./src/index.tsx",
 	"sideEffects": false,
-	"main": "./dist/index.js",
-	"module": "./dist/index.mjs",
-	"types": "./dist/index.d.ts",
-	"files": ["dist/**"],
-	"exports": {
-		"./counter-button": "./src/counter-button.tsx",
-		"./link": "./src/link.tsx"
-	},
 	"scripts": {
 		"build": "tsup",
 		"clean": "rm -rf dist node_modules .turbo",
