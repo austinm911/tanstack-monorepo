@@ -1,30 +1,25 @@
-# Turborepo kitchen sink starter
+# Turborepo Monorepo (Tanstack/Hono/SST/Drizzle)
 
-This is an official starter Turborepo with multiple meta-frameworks all working in harmony and sharing packages.
+## Goals
 
-This example also shows how to use [Workspace Configurations](https://turbo.build/repo/docs/core-concepts/monorepos/configuring-workspaces).
+- Simplicity over complexity
+- Modularity
+- Taking a bet on the best "rising" libraries offering the best developer experience
 
 ## Using this example
 
-Run the following command:
-
-```sh
-npx create-turbo@latest -e kitchen-sink
-```
-
-Add Environment Variables
-Create a `.env` file in the root of your project to store your environment variables.
-Make sure to include the following line in your `.env` file:
+Add Environment Variables:
+Copy the `.env.example` file to `.env` and add your environment variables.
 
 ```sh
 CLOUDFLARE_ACCOUNT_ID=<your-cloudflare-account-id>
 ```
 
-Add new packages to the repo
+Add new packages to the repo with Turborepo:
 
 ```sh
 bun turbo gen workspace
-# add --type [app/package] for which type of package to create
+# alternatively: `bun turbo gen workspace --type <app/package>` to specify the type of package to create
 ```
 
 ## What's inside?
@@ -53,7 +48,11 @@ This Turborepo has some additional tools already setup for you:
 - [Biome](https://biomejs.dev/) for formatting & linting
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [Jest](https://jestjs.io) test runner for all things JavaScript
-- [Prettier](https://prettier.io) for code formatting
+
+#### Other Utilities to Consider
+
+- [Knip](https://github.com/webpro/knip) - Find unused code
+- [date-fns](https://date-fns.org/) - Date utilities
 
 ## Resources
 
