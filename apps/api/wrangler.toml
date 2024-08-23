@@ -1,0 +1,6 @@
+name = "api"
+main = "src/index.ts"
+compatibility_date = "2024-03-07"
+
+[dev]
+port = 5001

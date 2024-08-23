@@ -1,8 +1,12 @@
 {
   "extends": "@repo/typescript-config/base.json",
   "compilerOptions": {
-    "lib": ["ES2015"],
-    "outDir": "./dist"
+    "lib": ["ESNext"],
+    "outDir": "./dist",
+    "types": [
+      "@cloudflare/workers-types",
+      "@types/bun"
+    ]
   },
   "exclude": ["node_modules"],
   "include": ["."]

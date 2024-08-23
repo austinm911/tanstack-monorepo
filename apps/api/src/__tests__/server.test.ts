@@ -1,22 +1,14 @@
-import supertest from "supertest";
-import { createServer } from "../server";
+import { describe, expect, it } from "bun:test";
+import { testClient } from "hono/testing";
+import app from "..";
 
 describe("Server", () => {
-  it("health check returns 200", async () => {
-    await supertest(createServer())
-      .get("/status")
-      .expect(200)
-      .then((res) => {
-        expect(res.ok).toBe(true);
-      });
-  });
+	const client = testClient(app);
 
-  it("message endpoint says hello", async () => {
-    await supertest(createServer())
-      .get("/message/jared")
-      .expect(200)
-      .then((res) => {
-        expect(res.body).toEqual({ message: "hello jared" });
-      });
-  });
+	it("health check returns 200 with hello world", async () => {
+		// @ts-expect-error
+		const res = await client.status.$get();
+		expect(res.status).toBe(200);
+		expect(await res.json()).toEqual({ hello: "world" });
+	});
 });
