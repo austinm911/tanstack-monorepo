@@ -24,6 +24,6 @@
 	"engines": {
 		"node": ">=20"
 	},
-	"packageManager": "bun@1.1.25",
+	"packageManager": "bun@1.1.26",
 	"workspaces": ["apps/*", "packages/*"]
 }
