@@ -2,7 +2,9 @@
 
 This is a Turborepo starter template with Tanstack Router
 
-- [ ] Add Tanstack Router Vite App
+- [ ] Add Tanstack Router Vite SPA App
+  - Having issues deploying to CF with SST
+- [ ] Add Tanstack Start App
 - [x] Replace Express Server with Hono
 - [ ] Add Drizzle ORM DB Package
 - [ ] Replace Jest with Bun's built-in test runner

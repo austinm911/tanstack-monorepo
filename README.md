@@ -74,6 +74,7 @@ This Turborepo has some additional tools already setup for you:
 
 - Example Monorepos
 
+- [vercel/turborepo/examples/kitchen-sink](https://github.com/vercel/turborepo/tree/ca29f0fa75ad2cf4c9640e8ffdef406e63961472/examples/kitchen-sink)
   - [mattpocock/total-typescript-monorepo](https://github.com/mattpocock/total-typescript-monorepo) / [total-typescript-monorepo-template](https://github.com/mattpocock/total-typescript-monorepo-template)
   - [byCedric/expo-monorepo-example](https://github.com/byCedric/expo-monorepo-example) Expo + Web
   - [saasfly/saasfly](https://github.com/saasfly/saasfly) - Next.JS template
@@ -83,6 +84,7 @@ This Turborepo has some additional tools already setup for you:
     - [breezemm/breeze-web](https://github.com/breezemm/breeze-web) - Monorepo for Breeze Web - init with Shadcn in UI package, consumed elsewhere
     - [dangvanthanh/nuxt-turborepo-boilerplate](https://github.com/dangvanthanh/nuxt-turborepo-boilerplate) - review biome config
   - SST
+    - [sst/ion/tree/dev/examples/aws-monorepo](https://github.com/sst/ion/tree/dev/examples/aws-monorepo)
     - [sayandedotcom/refhired.com](https://github.com/sayandedotcom/refhired.com) - SST + Turborepo
 
 - Turborepo Generators

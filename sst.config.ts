@@ -1,11 +1,13 @@
 /// <reference path="./.sst/platform/config.d.ts" />
-
 export default $config({
 	app(input) {
 		return {
 			name: "tanstack-monorepo",
 			removal: input?.stage === "production" ? "retain" : "remove",
 			home: "cloudflare",
+			providers: {
+				cloudflare: {},
+			},
 		}
 	},
 	async run() {
@@ -14,8 +16,20 @@ export default $config({
 			handler: "apps/api/src/index.ts",
 		})
 
+		const spa = new sst.cloudflare.StaticSite("tanstack-monorepo-spa", {
+			path: "apps/spa",
+			build: {
+				command: "bun run build",
+				output: "dist",
+			},
+			environment: {
+				VITE_API_URL: hono.url.apply((url) => url?.toString() ?? ""),
+			},
+		})
+
 		return {
 			api: hono.url,
+			spa: spa.url,
 		}
 	},
 })

@@ -16,3 +16,5 @@ public/dist
 
 # Cloudflare
 .wrangler
+
+vite.config.js.timestamp-*
