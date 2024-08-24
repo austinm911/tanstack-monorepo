@@ -52,6 +52,7 @@ This Turborepo includes the following packages and apps:
 | 2          | jest-presets      | Jest configurations for testing JavaScript applications                             |
 | 3          | typescript-config | tsconfig.json's used throughout the monorepo                                        |
 | 4          | core              | Core package for business logic                                                     |
+| 5          | db                | Database package for [Drizzle ORM](https://drizzle.dev/)                             |
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
