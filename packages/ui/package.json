@@ -12,17 +12,14 @@
 		"dev": "tsup --watch",
 		"typecheck": "tsc --noEmit",
 		"lint": "biome check --write",
-		"test": "jest",
+		"test": "bun test",
 		"outdated": "bun outdated"
 	},
 	"jest": {
 		"preset": "@repo/jest-presets/browser"
 	},
 	"devDependencies": {
-		"@repo/jest-presets": "*",
 		"@repo/typescript-config": "*",
-		"@types/jest": "^29.5.12",
-		"@types/node": "^22.5.0",
 		"@types/react": "^18.3.4",
 		"@types/react-dom": "^18.3.0",
 		"jest": "^29.7.0",

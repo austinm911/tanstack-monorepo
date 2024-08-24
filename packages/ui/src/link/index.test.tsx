@@ -1,3 +1,5 @@
+import { describe, it } from "bun:test"
+
 import { createRoot } from "react-dom/client"
 import { Link } from "."
 

@@ -11,14 +11,14 @@
 		"dev": "tsup --watch",
 		"typecheck": "tsc --noEmit",
 		"lint": "biome check --write",
-		"test": "jest",
+		"test": "bun test",
 		"outdated": "bun outdated"
 	},
 	"dependencies": {
 		"@repo/db": "workspace:*"
 	},
 	"devDependencies": {
-		"typescript": "^5.5.4",
-		"tsup": "^8.2.4"
+		"tsup": "^8.2.4",
+		"typescript": "^5.5.4"
 	}
 }
