@@ -1,1 +1,1 @@
-const index = "index"
+const index = 'index'

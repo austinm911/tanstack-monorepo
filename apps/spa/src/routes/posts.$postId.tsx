@@ -1,9 +1,9 @@
-import { ErrorComponent, createFileRoute } from "@tanstack/react-router"
-import type { ErrorComponentProps } from "@tanstack/react-router"
-import * as React from "react"
-import { fetchPost } from "../posts"
+import { ErrorComponent, createFileRoute } from '@tanstack/react-router'
+import type { ErrorComponentProps } from '@tanstack/react-router'
+import * as React from 'react'
+import { fetchPost } from '../posts'
 
-export const Route = createFileRoute("/posts/$postId")({
+export const Route = createFileRoute('/posts/$postId')({
 	loader: async ({ params: { postId } }) => fetchPost(postId),
 	errorComponent: PostErrorComponent as any,
 	notFoundComponent: () => {

@@ -1,4 +1,4 @@
-import { CounterButton, Link } from "@repo/ui"
+import { CounterButton, Link } from '@repo/ui'
 
 export default function Index(): JSX.Element {
 	return (
@@ -10,7 +10,7 @@ export default function Index(): JSX.Element {
 			<CounterButton />
 			<p className='description'>
 				Built With <Link href='https://turbo.build/repo'>Turborepo</Link>
-				{" & "}
+				{' & '}
 				<Link href='https://remix.run/'>Remix</Link>
 			</p>
 		</div>

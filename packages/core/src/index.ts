@@ -1,7 +1,7 @@
-import { db } from "@repo/db"
+import { db } from '@repo/db'
 
 if (!db) {
-	throw new Error("db is not defined")
+	throw new Error('db is not defined')
 }
 
 console.log(db)
