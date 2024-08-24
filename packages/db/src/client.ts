@@ -14,6 +14,7 @@ export function createDb(
 	return drizzle(connection, { schema: schema, logger: options.logger })
 }
 
+// Allows connection to be exported for running local scripts (to close the connection manually)
 export function createDbWithConnection(connectionString: string) {
 	const connection = createConnection(connectionString)
 	const db = drizzle(connection, { schema: schema, logger: true })
