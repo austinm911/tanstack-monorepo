@@ -1,9 +1,4 @@
 {
-	"extends": "@repo/typescript-config/react-library.json",
-	"compilerOptions": {
-		"lib": ["dom", "ES2022"],
-		"types": ["jest", "node", "@types/bun"]
-	},
-	"include": [".", "../../env.d.ts"],
-	"exclude": ["dist", "build", "node_modules"]
+	"extends": "@repo/typescript-config/base.json",
+	"include": [".", "../../env.d.ts"]
 }

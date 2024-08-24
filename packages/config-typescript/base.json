@@ -11,6 +11,7 @@
 		"inlineSources": false,
 		"isolatedModules": true,
 		"module": "ESNext",
+		"target": "esnext",
 		"moduleResolution": "Bundler",
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
@@ -21,5 +22,5 @@
 		"strictNullChecks": true,
 		"types": ["@types/bun"]
 	},
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules", "dist", "build"]
 }

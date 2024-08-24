@@ -3,6 +3,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"private": true,
+	"exports": "./src/index.ts",
 	"scripts": {
 		"dev": "sst dev",
 		"wrangler:dev": "wrangler dev src/index.ts",
