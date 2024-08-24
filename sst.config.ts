@@ -1,4 +1,5 @@
 /// <reference path="./.sst/platform/config.d.ts" />
+
 export default $config({
 	app(input) {
 		return {
@@ -7,6 +8,7 @@ export default $config({
 			home: "cloudflare",
 			providers: {
 				cloudflare: {},
+				aws: {},
 			},
 		}
 	},
@@ -16,7 +18,8 @@ export default $config({
 			handler: "apps/api/src/index.ts",
 		})
 
-		const spa = new sst.cloudflare.StaticSite("tanstack-monorepo-spa", {
+		// ! Tried to deploy to Cloudflare but doesn't appear to work
+		const spa = new sst.aws.StaticSite("tanstack-monorepo-spa-", {
 			path: "apps/spa",
 			build: {
 				command: "bun run build",

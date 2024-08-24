@@ -1,0 +1,1 @@
+export { pagesProject } from "./pages"
