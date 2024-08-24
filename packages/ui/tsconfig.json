@@ -4,6 +4,6 @@
 		"lib": ["dom", "ES2015"],
 		"types": ["jest", "node"]
 	},
-	"include": ["."],
+	"include": [".", "../../env.d.ts"],
 	"exclude": ["dist", "build", "node_modules"]
 }

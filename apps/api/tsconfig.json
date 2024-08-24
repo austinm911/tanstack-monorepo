@@ -6,5 +6,5 @@
 		"types": ["@cloudflare/workers-types", "@types/bun"]
 	},
 	"exclude": ["node_modules"],
-	"include": ["."]
+	"include": [".", "../../env.d.ts"]
 }

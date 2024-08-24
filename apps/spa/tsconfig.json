@@ -1,3 +1,4 @@
 {
-	"extends": "@repo/typescript-config/react-app.json"
+	"extends": "@repo/typescript-config/react-app.json",
+	"include": [".", "../../env.d.ts"]
 }

@@ -4,16 +4,16 @@ This is a Turborepo starter template with Tanstack Router
 
 ## Known Issues
 
-- [ ] Workspaces not working with Bun
-- [ ] Deploying StaticSite to CF does not upload the dist
+- [ ] Deploying StaticSite to Cloudflare with SST does not work?
 
 ## TODO
 
 - [ ] Add Tanstack Router Vite SPA App
-  - Having issues deploying to CF with SST
+  - Having issues deploying to CF with SST, but works with AWS SST provider.
+  - [ ] Try with Cloudflare Pulumi
 - [ ] Add Tanstack Start App
-- [x] Replace Express Server with Hono
 - [ ] Add Drizzle ORM DB Package
+- [x] Replace Express Server with Hono
 - [ ] Replace Jest with Bun's built-in test runner
 - [ ] Replace blog package with Astro
 - [x] Add Core Package for Business Logic

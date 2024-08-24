@@ -4,6 +4,6 @@
 		"lib": ["dom", "ES2022"],
 		"types": ["jest", "node", "@types/bun"]
 	},
-	"include": ["."],
+	"include": [".", "../../env.d.ts"],
 	"exclude": ["dist", "build", "node_modules"]
 }
