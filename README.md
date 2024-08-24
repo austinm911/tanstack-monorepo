@@ -49,10 +49,9 @@ This Turborepo includes the following packages and apps:
 | 3          | spa               | A [Tanstack Router](https://tanstack.com/router) SPA                                |
 | packages / |                   |                                                                                     |
 | 1          | ui                | A dummy React UI library (which contains `<CounterButton>` and `<Link>` components) |
-| 2          | jest-presets      | Jest configurations for testing JavaScript applications                             |
-| 3          | typescript-config | tsconfig.json's used throughout the monorepo                                        |
-| 4          | core              | Core package for business logic                                                     |
-| 5          | db                | Database package for [Drizzle ORM](https://drizzle.dev/)                             |
+| 2          | typescript-config | tsconfig.json's used throughout the monorepo                                        |
+| 3          | core              | Core package for business logic                                                     |
+| 4          | db                | Database package for [Drizzle ORM](https://drizzle.dev/)                             |
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
@@ -61,10 +60,9 @@ Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 This Turborepo has some additional tools already setup for you:
 
 - [SST](https://sst.dev/) for Infrastructure as Code
-- [Bun](https://bun.sh/) for package management and monorepo workspace
+- [Bun](https://bun.sh/) for package management, monorepo workspace, test runner
 - [Biome](https://biomejs.dev/) for formatting & linting
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [Jest](https://jestjs.io) test runner for all things JavaScript
 - [taze](https://github.com/antfu-collective/taze) for updating dependencies across the monorepo
 
 #### Other Utilities to Consider
