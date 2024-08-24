@@ -2,8 +2,8 @@
 	"extends": "@repo/typescript-config/react-library.json",
 	"compilerOptions": {
 		"lib": ["dom", "ES2015"],
-		"types": ["jest", "node"]
+		"types": ["node", "@types/bun"]
 	},
-	"include": [".", "../../env.d.ts"],
+	"include": [".", "../../env.d.ts", "../../happydom.ts"],
 	"exclude": ["dist", "build", "node_modules"]
 }
