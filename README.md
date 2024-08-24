@@ -6,6 +6,10 @@
 - Modularity
 - Taking a bet on the best "rising" libraries offering the best developer experience
 
+## Known Issues
+
+See [TODO.md](./TODO.md) for more details
+
 ## Using this example
 
 Add Environment Variables:
@@ -89,6 +93,10 @@ This Turborepo has some additional tools already setup for you:
   - SST
     - [sst/ion/tree/dev/examples/aws-monorepo](https://github.com/sst/ion/tree/dev/examples/aws-monorepo)
     - [sayandedotcom/refhired.com](https://github.com/sayandedotcom/refhired.com) - SST + Turborepo
+    - [marcotheo/qwik-sst-deployments](https://github.com/marcotheo/qwik-sst-deployments) - see example of SST + Cloudflare Pages deployment with Pulumi
+  - Pulumi
+    - [martypenner/surface-2-air-site](https://github.com/martypenner/surface-2-air-site) - example of Pulumi usage
+    - [ginetta/ginetta-tonic-festival](https://github.com/ginetta/ginetta-tonic-festival/blob/bcbefd4b3acf6df100b687295f73fc469b984e55/infrastructure/package.json) - see Pulumi usage
 
 - Turborepo Generators
   - [turbo-generator](https://github.com/eXodes/turbo-generator) - example generators for a Next.JS app
