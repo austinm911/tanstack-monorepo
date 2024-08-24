@@ -1,12 +1,9 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
-	"display": "React Library",
+	"display": "React Application",
 	"extends": "./base.json",
 	"compilerOptions": {
-		"lib": ["ESNext"],
-		"module": "ESNext",
-		"target": "ESNext",
 		"jsx": "react-jsx",
-		"noEmit": true
+		"lib": ["es2022", "dom", "dom.iterable"]
 	}
 }
