@@ -1,0 +1,29 @@
+{
+	"name": "@repo/db",
+	"version": "0.0.0",
+	"private": true,
+	"license": "MIT",
+	"sideEffects": false,
+	"type": "module",
+	"exports": "./src/index.ts",
+	"scripts": {
+		"build": "tsup",
+		"clean": "rm -rf dist node_modules .turbo",
+		"dev": "tsup --watch",
+		"typecheck": "tsc --noEmit",
+		"lint": "biome check --write",
+		"test": "jest",
+		"outdated": "bun outdated"
+	},
+	"dependencies": {
+		"drizzle-orm": "^0.33.0",
+		"drizzle-zod": "^0.5.1",
+		"postgres": "^3.4.4",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"drizzle-kit": "^0.24.1",
+		"typescript": "^5.5.4",
+		"tsup": "^8.2.4"
+	}
+}
