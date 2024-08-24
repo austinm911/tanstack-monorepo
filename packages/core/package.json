@@ -1,0 +1,24 @@
+{
+	"name": "@repo/core",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"license": "MIT",
+	"exports": "./src/index.ts",
+	"scripts": {
+		"build": "tsup",
+		"clean": "rm -rf dist node_modules .turbo",
+		"dev": "tsup --watch",
+		"typecheck": "tsc --noEmit",
+		"lint": "biome check --write",
+		"test": "jest",
+		"outdated": "bun outdated"
+	},
+	"dependencies": {
+		"@repo/db": "workspace:*"
+	},
+	"devDependencies": {
+		"typescript": "^5.5.4",
+		"tsup": "^8.2.4"
+	}
+}
