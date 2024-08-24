@@ -1,12 +1,6 @@
 // @see https://biomejs.dev/guides/big-projects/#monorepos
 {
 	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
-	"formatter": {
-		"enabled": true,
-		"indentWidth": 2,
-		"indentStyle": "tab",
-		"attributePosition": "auto"
-	},
 	"linter": {
 		"enabled": true,
 		"rules": { "recommended": true }
@@ -17,15 +11,15 @@
 	"javascript": {
 		"formatter": {
 			"semicolons": "asNeeded",
-			"jsxQuoteStyle": "single"
+			"jsxQuoteStyle": "single",
+			"quoteStyle": "single"
 		}
 	},
 	"json": {
 		"formatter": {
 			"enabled": true,
 			"indentWidth": 4,
-			"indentStyle": "tab",
-			"trailingCommas": "none"
+			"indentStyle": "tab"
 		}
 	},
 	"files": {
