@@ -1,5 +1,5 @@
 {
-	"extends": "@repo/typescript-config/react-library.json",
+	"extends": "@repo/config-typescript/react-library.json",
 	"compilerOptions": {
 		"lib": ["dom", "dom.iterable", "ESNext"],
 		"types": ["@types/bun"]
