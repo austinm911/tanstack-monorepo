@@ -76,6 +76,10 @@ This Turborepo has some additional tools already setup for you:
 - Email
   - [Resend](https://resend.com/) - Transaction & Marketing Emails
 
+## Syncing Github Template
+
+Refer to [AndreasAugustin/actions-template-sync](https://github.com/AndreasAugustin/actions-template-sync) for a github action to sync the template. This repo uses the [.github/workflows/template-sync.yml](./.github/workflows/template-sync.yml) file to sync the template, which you can manually trigger the action from the Actions tab in Github. You can configure this to automatically sync with a cron schedule if you'd like.
+
 ## Resources
 
 - Example Monorepos

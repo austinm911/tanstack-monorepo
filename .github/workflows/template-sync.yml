@@ -1,0 +1,27 @@
+# @see https://github.com/AndreasAugustin/actions-template-sync
+# .templatesyncignore will ignore certain files from being synced like .gitignore
+name: Template Sync
+
+on:
+    workflow_dispatch:
+
+jobs:
+    repo-sync:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+            pull-requests: write
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              # https://github.com/actions/checkout#usage
+              # uncomment if you use submodules within the repository
+              # with:
+              #     submodules: true
+
+            - name: actions-template-sync
+              uses: AndreasAugustin/actions-template-sync@v2
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  source_repo_path: austinm911/tanstack-monorepo
+                  upstream_branch: main
