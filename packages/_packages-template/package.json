@@ -9,6 +9,10 @@
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
 	"files": ["dist/**"],
+	"exports": {
+		".": "./src/index.ts",
+		"./*": "./src/*.ts"
+	},
 	"scripts": {
 		"build": "tsup",
 		"clean": "rm -rf dist node_modules .turbo",

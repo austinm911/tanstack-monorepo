@@ -4,7 +4,10 @@
 	"private": true,
 	"license": "MIT",
 	"type": "module",
-	"exports": "./src/index.tsx",
+	"exports": {
+		".": "./src/index.tsx",
+		"./*": "./src/*.tsx"
+	},
 	"sideEffects": false,
 	"scripts": {
 		"build": "tsup",

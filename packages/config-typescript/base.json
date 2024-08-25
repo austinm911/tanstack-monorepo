@@ -19,7 +19,7 @@
 		"sourceMap": true,
 		"declaration": true,
 		"declarationMap": true,
-		"composite": true,
+		"composite": false,
 		"types": ["@types/bun"],
 		"noEmit": true
 	},
