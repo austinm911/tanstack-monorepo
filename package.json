@@ -15,6 +15,7 @@
 		"api": "bun --filter @repo/api dev",
 		"spa": "bun --filter @repo/spa dev",
 		"astro": "bun --filter @repo/astro dev",
+		"ui:add-component": "bunx shadcn-ui@latest add --cwd packages/ui",
 		"outdated": "turbo run outdated",
 		"update-deps": "bunx taze --interactive --recursive"
 	},

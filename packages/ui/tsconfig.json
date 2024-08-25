@@ -1,5 +1,11 @@
 {
 	"extends": "@repo/config-typescript/react.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
 	"include": [".", "../../env.d.ts"],
 	"exclude": ["node_modules", "dist", "build"]
 }
