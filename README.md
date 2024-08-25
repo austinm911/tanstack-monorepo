@@ -69,6 +69,8 @@ This Turborepo has some additional tools already setup for you:
 
 - [Knip](https://github.com/webpro/knip) - Find unused code
 - [date-fns](https://date-fns.org/) - Date utilities
+- [mattpocock/ts-reset: A 'CSS reset' for TypeScript, improving types for common JavaScript API's](https://github.com/mattpocock/ts-reset)
+- [ts-essentials/ts-essentials: All essential TypeScript types in one place 🤙](https://github.com/ts-essentials/ts-essentials)
 - Auth
   - WorkOS
   - Clerk
@@ -109,7 +111,7 @@ Refer to [AndreasAugustin/actions-template-sync](https://github.com/AndreasAugus
 - tsup
   - [treeshaking-with-tsup](https://dorshinar.me/posts/treeshaking-with-tsup)
 
-### Syncing Github Template
+### Syncing Github Template Notes
 
 - [GitHub templates and repository sync | 0xDC.me](https://0xdc.me/blog/github-templates-and-repository-sync/)
 - [actions-template-sync](https://github.com/AndreasAugustin/actions-template-sync) - seems most used
