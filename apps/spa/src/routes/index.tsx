@@ -1,5 +1,5 @@
+import { Button } from '@repo/ui/components/ui/button'
 import { createFileRoute } from '@tanstack/react-router'
-import * as React from 'react'
 
 export const Route = createFileRoute('/')({
 	component: Home,
@@ -7,8 +7,9 @@ export const Route = createFileRoute('/')({
 
 function Home() {
 	return (
-		<div className='p-2'>
+		<div className='p-2 flex flex-col gap-2'>
 			<h3>Welcome Home!</h3>
+			<Button className='w-fit'>Shadcn Button from @repo/ui</Button>
 		</div>
 	)
 }
