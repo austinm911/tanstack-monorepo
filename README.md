@@ -45,13 +45,13 @@ This Turborepo includes the following packages and apps:
 | ---------- | ----------------- | ----------------------------------------------------------------------------------- |
 | apps /     |                   |                                                                                     |
 | 1          | api               | A [Hono](https://hono.dev/) server compatible with Cloudflare Workers               |
-| 2          | blog              | A [Remix](https://remix.run/) blog for content management                           |
+| 2          | astro             | A [Astro](https://astro.build/) for content-driven websites                         |
 | 3          | spa               | A [Tanstack Router](https://tanstack.com/router) SPA                                |
 | packages / |                   |                                                                                     |
 | 1          | ui                | A dummy React UI library (which contains `<CounterButton>` and `<Link>` components) |
 | 2          | typescript-config | tsconfig.json's used throughout the monorepo                                        |
 | 3          | core              | Core package for business logic                                                     |
-| 4          | db                | Database package for [Drizzle ORM](https://drizzle.dev/)                             |
+| 4          | db                | Database package for [Drizzle ORM](https://drizzle.dev/)                            |
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
@@ -103,6 +103,13 @@ This Turborepo has some additional tools already setup for you:
 
 - tsup
   - [treeshaking-with-tsup](https://dorshinar.me/posts/treeshaking-with-tsup)
+
+### Syncing Github Template
+
+- [GitHub templates and repository sync | 0xDC.me](https://0xdc.me/blog/github-templates-and-repository-sync/)
+- [actions-template-sync](https://github.com/AndreasAugustin/actions-template-sync) - seems most used
+- [template-sync](https://github.com/template-tools/template-sync)
+- [coopTilleuls/template-sync](https://github.com/coopTilleuls/template-sync)
 
 ## Notes
 

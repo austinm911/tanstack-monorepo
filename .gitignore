@@ -10,6 +10,9 @@ dist-ssr
 .cache
 server/dist
 public/dist
+tsconfig.tsbuildinfo
+# generated types
+.astro/
 
 # sst
 .sst

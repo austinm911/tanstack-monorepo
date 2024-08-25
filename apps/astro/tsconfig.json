@@ -1,0 +1,4 @@
+{
+	"extends": "@repo/config-typescript/astro.json",
+	"include": [".", "../../env.d.ts"]
+}

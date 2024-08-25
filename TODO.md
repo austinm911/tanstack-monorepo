@@ -10,10 +10,10 @@ This is a Turborepo starter template with Tanstack Router
 
 - [ ] Replace blog package with Astro
 - [ ] Add Tanstack Start App
-- [ ] Replace Jest with Bun's built-in test runner
 - [ ] Add Expo Mobile Package
   - Having issues deploying to CF with SST, but works with AWS SST provider.
   - [ ] Try with Cloudflare Pulumi
+- [x] Replace Jest with Bun's built-in test runner
 - [x] Add Drizzle ORM DB Package
 - [x] Add Tanstack Router Vite SPA App
 - [x] Replace Express Server with Hono
@@ -21,4 +21,8 @@ This is a Turborepo starter template with Tanstack Router
 - [x] Replace ESLint/Prettier with Biome, add biome format, lint, check scripts
   - [x] Add Biome
   - [x] Remove Eslint
+
+## Lower Priority
+
+- [ ] Add [T3 Env](https://env.t3.gg/)
 - [ ] Add common utilities like Knip

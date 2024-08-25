@@ -1,3 +1,7 @@
 {
-	"recommendations": ["yzhang.markdown-all-in-one", "biomejs.biome"]
+	"recommendations": [
+		"yzhang.markdown-all-in-one",
+		"biomejs.biome",
+		"astro-build.astro-vscode"
+	]
 }

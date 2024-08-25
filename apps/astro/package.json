@@ -1,0 +1,24 @@
+{
+	"name": "@repo/astro",
+	"type": "module",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"clean": "rm -rf node_modules .astro .turbo dist",
+		"preview": "astro preview",
+		"lint": "biome check --write",
+		"format": "biome format",
+		"typecheck": "tsc --noEmit",
+		"test": "bun test",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"astro": "^4.14.5"
+	},
+	"devDependencies": {
+		"@astrojs/check": "^0.9.3",
+		"typescript": "^5.5.4"
+	}
+}
