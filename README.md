@@ -85,6 +85,7 @@ Refer to [AndreasAugustin/actions-template-sync](https://github.com/AndreasAugus
 - Example Monorepos
 
 - [vercel/turborepo/examples/kitchen-sink](https://github.com/vercel/turborepo/tree/ca29f0fa75ad2cf4c9640e8ffdef406e63961472/examples/kitchen-sink)
+- best monorepo with turbo [midday-ai/midday](https://github.com/midday-ai/midday) - a monorepo for my personal website and projects, built with Turborepo + pnpm 📚
   - [mattpocock/total-typescript-monorepo](https://github.com/mattpocock/total-typescript-monorepo) / [total-typescript-monorepo-template](https://github.com/mattpocock/total-typescript-monorepo-template)
   - [byCedric/expo-monorepo-example](https://github.com/byCedric/expo-monorepo-example) Expo + Web
   - [saasfly/saasfly](https://github.com/saasfly/saasfly) - Next.JS template
