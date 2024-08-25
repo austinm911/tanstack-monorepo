@@ -22,6 +22,5 @@
 		"composite": false,
 		"types": ["@types/bun"],
 		"noEmit": true
-	},
-	"exclude": ["node_modules", "dist", "build"]
+	}
 }
