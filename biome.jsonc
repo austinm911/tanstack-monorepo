@@ -29,7 +29,8 @@
 			".sst/**",
 			".turbo/**",
 			"sst-env.d.ts",
-			".wrangler/**"
+			".wrangler/**",
+			"prompts/**"
 		]
 	}
 }
