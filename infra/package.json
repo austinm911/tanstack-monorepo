@@ -9,6 +9,7 @@
 		"clean": "rm -rf dist node_modules .turbo",
 		"typecheck": "tsc --noEmit",
 		"lint": "biome check --write",
+		"pulumi:pages": "tsx -r dotenv/config infra/src/pages.ts",
 		"outdated": "bun outdated"
 	},
 	"dependencies": {
