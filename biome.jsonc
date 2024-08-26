@@ -30,7 +30,8 @@
 			".turbo/**",
 			"sst-env.d.ts",
 			".wrangler/**",
-			"prompts/**"
+			"prompts/**",
+			"routeTree.gen.ts"
 		]
 	}
 }

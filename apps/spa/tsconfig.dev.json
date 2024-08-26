@@ -1,10 +1,7 @@
 {
-  "composite": true,
-  "extends": "../../../tsconfig.base.json",
+	"composite": true,
+	"extends": "../../../tsconfig.base.json",
 
-  "files": ["src/main.tsx"],
-  "include": [
-    "src"
-    // "__tests__/**/*.test.*"
-  ]
+	"files": ["src/main.tsx"],
+	"include": ["src", "__tests__/**/*.test.*"]
 }

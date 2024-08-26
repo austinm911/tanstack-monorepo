@@ -5,6 +5,7 @@ import { fetchPost } from '../posts'
 
 export const Route = createFileRoute('/posts/$postId')({
 	loader: async ({ params: { postId } }) => fetchPost(postId),
+	// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 	errorComponent: PostErrorComponent as any,
 	notFoundComponent: () => {
 		return <p>Post not found</p>
