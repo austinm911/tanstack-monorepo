@@ -16,6 +16,10 @@
 		"typecheck": "tsc --noEmit",
 		"lint": "biome check --write",
 		"test": "bun test",
+		"generate": "drizzle-kit generate",
+		"check": "drizzle-kit check",
+		"push": "bun --env-file=../../.env drizzle-kit push",
+		"migrate": "drizzle-kit migrate",
 		"outdated": "bun outdated"
 	},
 	"dependencies": {
