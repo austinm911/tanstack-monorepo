@@ -2,6 +2,9 @@ import { Button } from '@repo/ui/components/ui/button'
 import { createFileRoute } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/')({
+	beforeLoad: (context) => {
+		console.log('beforeLoad', context)
+	},
 	component: Home,
 })
 

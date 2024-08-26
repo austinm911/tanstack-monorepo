@@ -1,8 +1,21 @@
-import { Link, Outlet, createRootRoute } from '@tanstack/react-router'
+import {
+	Link,
+	Outlet,
+	createRootRoute,
+	createRootRouteWithContext,
+} from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/router-devtools'
 import * as React from 'react'
 
-export const Route = createRootRoute({
+interface RootContext {
+	user: string
+}
+
+// type RootContext = {
+// 	user: string
+// }
+
+export const Route = createRootRouteWithContext<RootContext>()({
 	component: RootComponent,
 	notFoundComponent: () => {
 		return (
