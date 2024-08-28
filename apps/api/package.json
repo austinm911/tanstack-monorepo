@@ -17,6 +17,8 @@
 		"outdated": "bun outdated"
 	},
 	"dependencies": {
+		"@repo/core": "workspace:*",
+		"@repo/db": "workspace:*",
 		"hono": "^4.5.8"
 	},
 	"devDependencies": {

@@ -39,19 +39,18 @@ bunx taze --include lodash,webpack # filter by package name
 
 This Turborepo includes the following packages and apps:
 
-### Apps and Packages
+ **Apps**
 
-| Index No.  | Workspace/Folder  | Info.                                                                               |
-| ---------- | ----------------- | ----------------------------------------------------------------------------------- |
-| apps /     |                   |                                                                                     |
-| 1          | api               | A [Hono](https://hono.dev/) server compatible with Cloudflare Workers               |
-| 2          | astro             | A [Astro](https://astro.build/) for content-driven websites                         |
-| 3          | spa               | A [Tanstack Router](https://tanstack.com/router) SPA                                |
-| packages / |                   |                                                                                     |
-| 1          | ui                | A dummy React UI library (which contains `<CounterButton>` and `<Link>` components) |
-| 2          | typescript-config | tsconfig.json's used throughout the monorepo                                        |
-| 3          | core              | Core package for business logic                                                     |
-| 4          | db                | Database package for [Drizzle ORM](https://drizzle.dev/)                            |
+- **api**: A [Hono](https://hono.dev/) server compatible with Cloudflare Workers
+- **astro**: A [Astro](https://astro.build/) for content-driven websites
+- **spa**: A [Tanstack Router](https://tanstack.com/router) SPA
+
+**Packages**
+
+- **ui**: React UI library initialized with Shadcn common components, tsconfig, and globals.css, which are exported to the spa app
+- **typescript-config**: tsconfig.json's used throughout the monorepo
+- **core**: Core package for business logic
+- **db**: Database package for [Drizzle ORM](https://drizzle.dev/)
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
