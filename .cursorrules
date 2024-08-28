@@ -15,7 +15,7 @@
    - Request for TypeScript usage
 5. URL encode the prompt.
 6. Create a clickable link in this format:
-   [ComponentName](https://v0.dev/t/chat?q={encoded_prompt})
+   [ComponentName](https://v0.dev/chat?q={encoded_prompt})
 7. After generating, adapt the component to fit our project structure:
    - Import
      - common shadcn/ui components from <ui_package_alias>@repo/ui/components/ui/</ui_package_alias>
