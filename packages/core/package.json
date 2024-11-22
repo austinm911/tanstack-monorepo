@@ -21,7 +21,7 @@
 		"@repo/db": "workspace:*"
 	},
 	"devDependencies": {
-		"tsup": "^8.2.4",
-		"typescript": "^5.5.4"
+		"tsup": "^8.3.5",
+		"typescript": "^5.7.2"
 	}
 }
